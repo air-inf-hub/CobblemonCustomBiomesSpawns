@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemoncustombiomes",
+  "version": "${version}",
+  "name": "Cobblemon Custom Biomes & Spawns",
+  "description": "100 biomas custom tipo Plains + comando para spawns Cobblemon",
+  "authors": ["TuNombre"],
+  "contact": {},
+  "license": "All Rights Reserved",
+  "icon": "assets/cobblemoncustombiomes/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.cobblemoncustom.biomes.CobblemonCustomBiomes"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*",
+    "cobblemon": "*"
+  }
+}
